@@ -1,0 +1,19 @@
+{
+  "name": "tech-store-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "consumer": "ts-node consumer.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "kafkajs": "^2.2.4",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.8.2"
+  }
+}
